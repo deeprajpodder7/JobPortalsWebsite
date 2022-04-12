@@ -1,0 +1,154 @@
+html
+{
+    border: 0px;
+    margin: 0px;
+}
+.col-md-1 , .col-md-2 , .col-md-3 , .col-md-4 , .col-md-5 , .col-md-6 , .col-md-7 , .col-md-8 , .col-md-9 , .col-md-10 , .col-md-11 , .col-md-12
+{
+    padding: 20px 30px;
+}
+.header_bg
+{
+    background: linear-gradient(to bottom, #0000cc 0%, #0099ff 100%);
+}
+.logo_text_design
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.hyperlinks_design
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+}
+.hyperlinks_design:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+.another_hyperlink
+{
+    text-decoration: none;
+}
+.menubardiv
+{
+    background: linear-gradient(to bottom, #ffffff -8%, #ccffff 103%);
+}
+#mynavbar ul
+{
+    list-style: none;
+
+}
+#mynavbar ul li
+{
+    float: left;
+    padding: 15px;
+}
+#mynavbar ul li a 
+{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: inherit;
+}
+#mynavbar ul li a:hover 
+{
+    color: fuchsia;
+    text-decoration: underline;
+}
+.gray
+{
+    background-color: gray;
+}
+.black
+{
+    background-color: black;
+}
+#footermenubar ul
+{
+    list-style: none;
+}
+#footermenubar ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+#footermenubar ul li a:hover
+{
+    color: lightblue;
+}
+.textfield_design
+{
+    padding:12px 16px ;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    transition: 2s;
+}
+.textfield_design:hover
+{
+    border: 2px solid aqua;
+    border-radius: 15px;
+    transition: 2s;
+}
+.textfield_design:focus
+{
+    background-color: #e3ffff;
+}
+.search_btn
+{
+    margin: 10px;
+    padding: 9px 50px;
+    font-size: 20px;
+}
+.job_search_div
+{
+    text-align: center;
+    margin: 2px;
+    box-shadow: 5px 5px 0px #ebebeb, 5px 5px 5px #ebebeb ;
+}
+.display_job_div
+{
+    border: 1px solid gray;
+    margin-top: 12px;
+    background-color: white;
+}
+.reg_div_design
+{
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff -8%, #ffccff 103%);
+    box-shadow: 5px 5px 5px grey inset;
+    box-shadow: 5px 5px #39ffff, 10px 10px #71ff71, 15px 15px #ff208f;
+}
+.reglog_tf_design
+{
+    border: 2px solid gray;
+    border-radius: 3px;
+    width: 500px;
+    height: 35px;
+    padding: 7px 10px;
+    transition : 2s;
+}
+.reglog_tf_design:hover
+{
+    border: 2px solid aqua;
+    border-radius: 15px;
+    transition : 2s;
+}
+.reglog_tf_design:focus 
+{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);	
+}
+
+
+
+
+
+
+
+

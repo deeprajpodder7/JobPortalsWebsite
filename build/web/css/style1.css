@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Dec, 2021, 10:06:20 AM
+    Author     : julia
+*/
+
+.reglog_ta_design
+{
+    border: 2px solid gray;
+    border-radius: 3px;
+    width: 500px;
+    height: 100px;
+    padding: 7px 10px;
+    transition : 2s;
+}
+.reglog_ta_design:hover
+{
+    border: 2px solid aqua;
+    border-radius: 15px;
+    transition : 2s;
+}
+.reglog_ta_design:focus
+{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+

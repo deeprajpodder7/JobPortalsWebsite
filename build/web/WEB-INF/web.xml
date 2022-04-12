@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <filter>
+        <filter-name> valfilterdemo </filter-name>
+        <filter-class> com.julias.backend.ValidationFilter </filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name> valfilterdemo </filter-name>
+        <url-pattern> /reg </url-pattern>
+    </filter-mapping>
+    
+    <servlet>
+        <servlet-name> regdemo </servlet-name>
+        <servlet-class> com.julias.backend.Register </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> regdemo </servlet-name>
+        <url-pattern> /reg </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> logindemo </servlet-name>
+        <servlet-class> com.julias.backend.Login </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> logindemo </servlet-name>
+        <url-pattern> /login </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> logoutdemo </servlet-name>
+        <servlet-class> com.julias.backend.Logout </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> logoutdemo </servlet-name>
+        <url-pattern> /Logout </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> epademo </servlet-name>
+        <servlet-class> com.julias.backend.EditProfileAbout </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> epademo </servlet-name>
+        <url-pattern> /EditProfileAbout </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> educationdemo </servlet-name>
+        <servlet-class> com.julias.backend.AddEducationDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> educationdemo </servlet-name>
+        <url-pattern> /AddEducationDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> editeducationdemo </servlet-name>
+        <servlet-class> com.julias.backend.EditEducationDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> editeducationdemo </servlet-name>
+        <url-pattern> /EditEducationDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> experiencedemo </servlet-name>
+        <servlet-class> com.julias.backend.AddExperienceDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> experiencedemo </servlet-name>
+        <url-pattern> /AddExperienceDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> editexperiencedemo </servlet-name>
+        <servlet-class> com.julias.backend.EditExperienceDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> editexperiencedemo </servlet-name>
+        <url-pattern> /EditExperienceDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> deleteeducationdemo </servlet-name>
+        <servlet-class> com.julias.backend.DeleteEducationDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> deleteeducationdemo </servlet-name>
+        <url-pattern> /DeleteEducationDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> deleteexperiencedemo </servlet-name>
+        <servlet-class> com.julias.backend.DeleteExperienceDetails </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> deleteexperiencedemo </servlet-name>
+        <url-pattern> /DeleteExperienceDetails </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> updateprofilepicdemo </servlet-name>
+        <servlet-class> com.julias.backend.UpdateProfilePic </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> updateprofilepicdemo </servlet-name>
+        <url-pattern> /UpdateProfilePic </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> uploadresumedemo </servlet-name>
+        <servlet-class> com.julias.backend.UpdateResume </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> uploadresumedemo </servlet-name>
+        <url-pattern> /UpdateResume </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> downloadresumedemo </servlet-name>
+        <servlet-class> com.julias.backend.DownloadResume </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> downloadresumedemo </servlet-name>
+        <url-pattern> /DownloadResume </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> resumebuilderdemo </servlet-name>
+        <servlet-class> com.julias.backend.ResumeBuilder </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> resumebuilderdemo </servlet-name>
+        <url-pattern> /ResumeBuilder </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> downloadresumebuilderdemo </servlet-name>
+        <servlet-class> com.julias.backend.DownloadResumeBuilder </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> downloadresumebuilderdemo </servlet-name>
+        <url-pattern> /DownloadResumeBuilder </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> applyforjobdemo </servlet-name>
+        <servlet-class> com.julias.backend.ApplyForJob </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> applyforjobdemo </servlet-name>
+        <url-pattern> /ApplyForJob </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> deletemyjobdemo </servlet-name>
+        <servlet-class> com.julias.backend.DeleteMyJobApplication </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> deletemyjobdemo </servlet-name>
+        <url-pattern> /DeleteMyJobApplication </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> simplejobsearchdemo </servlet-name>
+        <servlet-class> com.julias.backend.SimpleJobSearch </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> simplejobsearchdemo </servlet-name>
+        <url-pattern> /SimpleJobSearch </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> simplejobsearchwithlocationdemo </servlet-name>
+        <servlet-class> com.julias.backend.SimpleJobSearchWithLocation </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> simplejobsearchwithlocationdemo </servlet-name>
+        <url-pattern> /SimpleJobSearchWithLocation </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> getuserdatademo </servlet-name>
+        <servlet-class> com.julias.backend.GetUserData </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> getuserdatademo </servlet-name>
+        <url-pattern> /GetUserData </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> checkcookiedemo </servlet-name>
+        <servlet-class> com.julias.backend.CheckCookie </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> checkcookiedemo </servlet-name>
+        <url-pattern> /CheckCookie </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> contactusdemo </servlet-name>
+        <servlet-class> com.julias.backend.ContactUs </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name> contactusdemo </servlet-name>
+        <url-pattern> /ContactUs </url-pattern>
+    </servlet-mapping>
+    
+</web-app>
