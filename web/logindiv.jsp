@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> Login Page </title>
+        <title> Job Portal - Login </title>
     </head>
     <body>
         <br><br>

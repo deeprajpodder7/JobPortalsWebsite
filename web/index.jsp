@@ -17,7 +17,7 @@
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title>Job Portal Website </title>
+        <title>Job Portal - Home </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
@@ -51,7 +51,7 @@
             <jsp:include page="menubar.jsp"></jsp:include>
 
                 <div class="row" style="border: 0px solid white">
-                    <img alt="Banner Image" src="images/job_banner.jpg" >
+                    <img alt="Banner Image" src="images/job_banner.jpg" height="580">
                 </div>
 
                 <!-- Search Job division Starts -->
@@ -164,6 +164,8 @@
                     </div>
                 </div>
 
+            <br><br><br>                
+                            
             <jsp:include page="footer.jsp"></jsp:include>
         </div>
     </body>

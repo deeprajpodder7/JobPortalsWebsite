@@ -13,10 +13,18 @@ html
 }
 .logo_text_design
 {
-    font-size: 20px;
-    font-weight: bold;
+    margin-top: 12px;
     color: white;
+    font-size: 30px;
+    text-decoration: none;
 }
+
+.logo_text_design:hover
+{
+    text-decoration: none;
+    color: #cc0000;
+}
+
 .hyperlinks_design
 {
     color: white;
@@ -58,7 +66,7 @@ html
 #mynavbar ul li a:hover 
 {
     color: fuchsia;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .gray
 {
@@ -145,10 +153,129 @@ html
     border: 1px solid rgba(81, 203, 238, 1);	
 }
 
+.footer
+{
+    background: white;
+}
+
+#footernavbar ul
+{
+    list-style: none;
+}
+#footernavbar ul li
+{
+    padding: 10px;
+}
+#footernavbar ul li a
+{
+    color: #666666;
+    text-decoration: none;
+}
+#footernavbar ul li a:hover
+{
+    color: #00cccc;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.footer_mail
+{
+    font-size: 14px;
+    font-style: normal;
+    font-family: fantasy;
+}
+
+.footer_icon_design
+{
+    padding: 0 10px;
+    font-size: 20px;
+    color: #999999;
+    text-decoration: none;
+    float: next;
+}
+.footer_icon_design:hover
+{
+    text-decoration: none;
+    color: #0033ff;
+}
+
+.copyright_hyper_link_design
+{
+    color: #333333;
+    text-decoration: none;
+}
+.copyright_hyper_link_design:hover
+{
+    color: #cccccc;
+    text-decoration: none;
+}
 
 
+.footer_img_design
+{
+    margin-left: 40%;
+}
 
+.logo_img_design
+{
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.logo_name_design
+{
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.logo_name_design:hover
+{
+    text-decoration: none;
+    color: #cc0000;
+}
 
+.menubar_div_design_hyperlink
+{
+    text-decoration: none;
+}
 
+.menubar_div_design_hyperlink:hover
+{
+    text-decoration: none;
+}
 
+.term-condition-box-color-div-design
+{
+    height: auto;
+    border-radius: 5px;
+    border: none !important;
+    box-shadow: 1px 2px 1px 2px #f2f2f2,-1px -2px 1px 2px #f2f2f2!important;
+}
 
+.paragraph_one_div_design
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px;
+    color: black;
+}
+
+.bold-text-color-div-design
+{
+    color: #666666;
+    font-size: 18px;
+}
+
+.strong-text-div-design
+{
+    font-size: 28px;
+    color: black;
+    font-weight: 900;
+}
+
+.note-text-div-design
+{
+    font-size: 18px;
+    color: black;
+}

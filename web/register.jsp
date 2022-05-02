@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title> Register Page </title>
+        <title> Job Portal - Register </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
@@ -154,9 +154,9 @@
                                 <option value="Pune"> Pune </option>
                             </select> <br> <span id="city_error" style="font-size: 15px; color: red;">  </span>  <br><br>
 
-                            <input type="submit" value="Register" class="btn btn-primary search_btn" /> <br>				
+                            <input type="submit" value="Register" class="btn btn-primary search_btn" /> <br><br>				
 
-                            <strong> OR </strong><br>
+                            <strong> OR </strong><br><br>
 
                             <strong> Already Register <a href="login.jsp" style="font-size: 15px; text-decoration: none;"> Login Now</a> </strong>
                         </form>
@@ -165,7 +165,9 @@
 
                     </div>
                 </div>
-                <br><br>
+                
+            <br><br><br>
+                
             <jsp:include page="footer.jsp"></jsp:include>
 
         </div>

@@ -27,7 +27,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> Upload Your Resume </title>
+        <title> Job Portal - Upload Your Resume </title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
@@ -49,7 +49,7 @@
                 <div class="col-md-8">
                     <div class="row" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;">
                         <div class="col-md-3">
-                            <img alt="Resume Not Found" src="resumes/default_image.png" height="180" style="border: 1px solid cyan; border-radius: 15px; color: red;" /><br><br>
+                            
                         </div>
                         <div class="col-md-9">
                             <h2> Upload Your Resume </h2> <br>
@@ -94,6 +94,7 @@
                 </div>
             </div>                
 
+            <br><br><br>
             
             <jsp:include page="footer.jsp" ></jsp:include>
 

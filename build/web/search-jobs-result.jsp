@@ -17,7 +17,7 @@
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title> Search Jobs Result </title>
+        <title> Job Portal - Search Jobs Result </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
@@ -160,6 +160,8 @@
                     </div>
                 </div>
 
+            <br><br><br>
+                            
             <jsp:include page="footer.jsp"></jsp:include>
         </div>
     </body>

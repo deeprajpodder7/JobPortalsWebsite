@@ -14,7 +14,7 @@
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title> About Us </title>
+        <title> Job Portal - About Us </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
@@ -70,60 +70,14 @@
                 </div>
                 <!-- Search Job division Ends -->
 
-                <div class="row">
+                <div class="row" style="background-color: #fff3ff;">
                     <div class="col-md-2" id="mynavbar">
-<!--                        <ul>
-                            <li> <a href="https://learning.tcsionhub.in/hub/national-qualifier-test/"> <img alt="TCS" src="images/tcs.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://careers.wipro.com/careers-home/jobs"> <img alt="Wipro" src="images/wipro.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://dxc.com/us/en/careers"> <img alt="DXC" src="images/dxc.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://www.infosys.com/careers/apply.html"> <img alt="Infosys" src="images/infosys.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://www.apple.com/careers/us/"> <img alt="Apple" src="images/apple.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Disney" src="images/disney.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="MasterCard" src="images/mastercard.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Nike" src="images/nike.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Puma" src="images/puma.jpg" height="100px" width="100px"> </a> </li> 
-                        </ul>-->
+                        
                     </div>
-                    <div class="col-md-8" style="background-color: #e6ffff;">
+                    <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;" >
                                 <b style="font-size: 25px; color: blue; margin-left: 30%;"> This is Job Portal Website </b> <br>
-                            </div>
-                            <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;" >
-                                <h3 style="color: #006666; margin-left: 40%; text-decoration: underline;"> Our Teams Members </h3>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img alt="Julias Biswas" src="images/JULIAS_DP2.jpg" height="200" width="200" style="border: 1px solid black; border-radius: 50%;" />
-                                    </div>
-                                    <div class="col-md-9">
-                                        <b style="color: #0000cc; font-size: 30px;"> Julias Biswas </b>
-                                        <p>
-                                            ( Java Developer , Frontend Developer )
-                                        </p>
-                                        <span> <b> <i class="glyphicon glyphicon-envelope"> </i> &nbsp;&nbsp; juliasbiswas0001@gmail.com </b> </span> <br>
-                                        <span> <b> <i class="glyphicon glyphicon-earphone"> </i> &nbsp;&nbsp; 6294160823 </b> </span> <br>
-                                        <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="https://www.linkedin.com/in/julias-biswas-604953203/">LinkedIn Profile </a> </b> </span> <br>
-                                        <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a href="https://www.hackerrank.com/juliasbiswas0001">HackerRank Profile</a> </b> </span> <br>
-                                        <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a href="https://www.instagram.com/julias.biswas/">Instagram Profile</a> </b> </span> <br>
-                                        <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a href="https://github.com/Julias-Biswas">GitHub Profile</a> </b> </span> <br>
-                                    </div>
-<!--                                    <hr>
-                                    <div class="col-md-3">
-                                        <img alt="Nayan Bhowmick" src="images/nayanbh.png" height="200" width="200" style="border: 1px solid black; border-radius: 50%;" />
-                                    </div>
-                                    <div class="col-md-9">
-                                        <b style="color: #0000cc; font-size: 30px;"> Nayan Bhowmick </b>
-                                        <p>
-                                            ( Java Developer )
-                                        </p>
-                                        <span> <b> <i class="glyphicon glyphicon-envelope"> </i> &nbsp;&nbsp; nayanbhowmick49@gmail.com </b> </span> <br>
-                                        <span> <b> <i class="glyphicon glyphicon-earphone"> </i> &nbsp;&nbsp; 6291895984 </b> </span> <br>
-                                        <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="https://www.linkedin.com/in/nayan-bhowmick-31ba551a4/">LinkedIn Profile </a> </b> </span> <br>
-                                        <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a href="">HackerRank Profile</a> </b> </span> <br>
-                                        <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a href="">Instagram Profile</a> </b> </span> <br>
-                                        <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a href="">GitHub Profile</a> </b> </span> <br>
-                                    </div>-->
-                                </div>
                             </div>
                             <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;">
                                 
@@ -213,20 +167,12 @@
                         </div>
                     </div>
                     <div class="col-md-2" id="mynavbar">
-<!--                        <ul>
-                            <li> <a href="https://careers.google.com/"> <img alt="Google" src="images/google.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://careers.microsoft.com/us/en"> <img alt="Microsoft" src="images/microsoft.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://careers.cognizant.com/in/en"> <img alt="Cognizant" src="images/cognizant.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://www.capgemini.com/in-en/careers/"> <img alt="Capgemini" src="images/capgemini.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://jobs.hp.com/"> <img alt="HP" src="images/hp.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href="https://careers.nokia.com/"> <img alt="Nokia" src="images/nokia.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href="https://www.ibm.com/in-en/employment/"> <img alt="IBM" src="images/ibm.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href="https://www.bmwgroup.com/en/careers.html"> <img alt="BMW" src="images/bmw.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href="https://www.mercedes-benz.co.in/passengercars/the-brand/career.html"> <img alt="Mercedes" src="images/mercedes.jpg" height="100px" width="100px" > </a> </li>
-                        </ul>-->
+                        
                     </div>
                 </div>
 
+                <br><br><br>
+                
             <jsp:include page="footer.jsp"></jsp:include>
         </div>
     </body>
