@@ -279,3 +279,36 @@ html
     font-size: 18px;
     color: black;
 }
+
+.menubar_design
+{
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.menubar_design:hover
+{
+    color: #c9720f;
+    text-decoration: none;
+}
+
+.menubar_design_button
+{
+    border: 1px solid #ebedec;
+    background: #1500ef;
+    height: 40px;
+    width: 150px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.menubar_design_button:hover
+{
+    background: #99b463;
+    color: white;
+    border: 1px solid #99b463;
+    border-radius: 10px;
+    transition: 0.5s;
+}

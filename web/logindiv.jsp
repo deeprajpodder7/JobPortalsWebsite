@@ -20,16 +20,16 @@
             <div class="col-md-8 reg_div_design">
                 <form method="POST" action="login">
 
-                    <strong style="font-size: 30px; font-style: italic;"> Login Here </strong> <br><br>
+                    <strong style="font-size: 35px; font-weight: 900; color: #009900;"> Login </strong> <br><br>
 
                     <input type="text" placeholder="Enter Email" name="email1" class="reglog_tf_design" />  <br> <br>
                     <input type="password" placeholder="Enter Password" name="pass1" class="reglog_tf_design" />  <br> <br>
                     <input type="checkbox" value="rememberme" name="rememberme1" /> Remember Me <br><br>
-                    <input type="submit" value="Login" class="btn btn-primary search_btn" /> <br>				
+                    <input type="submit" value="Login" class="btn btn-primary search_btn" /> <br><br>				
 
-                    <strong> OR </strong><br>
+                    <strong> OR </strong><br><br>
 
-                    <strong> New User <a href="register.jsp" style="font-size: 15px; text-decoration: none;"> Register Now</a> </strong>
+                    <strong> New User ? <a href="register.jsp" style="font-size: 15px; text-decoration: none;">Sign Up</a> </strong>
                 </form>
             </div>
             <div class="col-md-2">

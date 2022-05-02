@@ -138,25 +138,19 @@
                 </div>
                 <!-- Search Job division Ends -->
 
-                <div class="row">
+                <div class="row" style="background-color: #fff3ff;">
                     <div class="col-md-3" id="mynavbar">
-                        <ul>
-                            <li> <a href="https://learning.tcsionhub.in/hub/national-qualifier-test/"> <img alt="TCS" src="images/tcs.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://careers.wipro.com/careers-home/jobs"> <img alt="Wipro" src="images/wipro.jpg" height="100px" width="100px"> </a> </li> 
-                            
+                        
                     </div>
-                    <div class="col-md-6" style="background-color: #e6ffff;">
+                    <div class="col-md-6">
                         <div class="row">
                             
-                            <span id="respgenerated"> No Result Found </span>
+                            <span id="respgenerated" style="font-size: 20px; color: black;"> No Result Found </span>
                             
                         </div>
                     </div>
                     <div class="col-md-3" id="mynavbar">
-                        <ul>
-                            <li> <a href="https://careers.google.com/"> <img alt="Google" src="images/google.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href="https://careers.microsoft.com/us/en"> <img alt="Microsoft" src="images/microsoft.jpg" height="100px" width="100px"> </a> </li> 
-                            
+                         
                     </div>
                 </div>
 

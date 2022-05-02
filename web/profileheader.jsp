@@ -26,15 +26,17 @@
         <div class="row header_bg">
             <div class="col-md-4">
                 <a href="index.jsp" title="Go To Home Page">
-                    <img alt="Logo Image" src="images/job_portal_logo2.jpg" width="65" height="65" class="logo_img_design" >
+                    <img alt="Logo Image" src="images/job_portal_logo.jpg" width="65" height="65" class="logo_img_design" >
                 </a>
                 <a href="index.jsp" title="Go To Home Page" class="logo_name_design">Job Portal</a>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <strong style="font-size: 24px; color: #ffffff; font-weight: 800;"> Welcome : </strong> <strong style="font-size: 24px; color: #ffffff;"> <a title="Click Here Then Go To My Profile" class="user-name-after-login" href="profile.jsp" style="color: #ffffff; text-decoration: none;"> <img alt="" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="60" width="60" style="border: 0.5px solid #cccccc; border-radius: 50%; image-resolution: normal;" /> <jsp:expression>name</jsp:expression> </a> </strong>
             </div>
-            <div class="col-md-1">
-                <a href="Logout" class="hyperlinks_design" style="font-size: 18px;">Logout </a> 
+            <div class="col-md-2">
+                
+                <a href="Logout"> <button class="menubar_design menubar_design_button"> <span class="glyphicon glyphicon-log-out"></span> Logout </button> </a> 
+                
             </div>		
         </div>
     </body>

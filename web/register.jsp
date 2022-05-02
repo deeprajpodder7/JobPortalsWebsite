@@ -124,7 +124,7 @@
 
                         <form method="POST" name="regform" onsubmit="return validation()" action="reg">
 
-                            <strong style="font-size: 30px; font-style: italic;"> Register Here </strong> <br><br>
+                            <strong style="font-size: 35px; font-weight: 900; color: #009900;"> Register </strong> <br><br>
 
                             <input type="text" placeholder="Enter Name" name="name1" class="reglog_tf_design" onkeyup="val('name_error')" /> <br> <span id="name_error" style="font-size: 15px; color: red;">  </span> <br> <br>
                             <input type="text" placeholder="Enter Email" name="email1" class="reglog_tf_design" onkeyup="val('email_error')" /> <br> <span id="email_error" style="font-size: 15px; color: red;">  </span> <br> <br>
@@ -158,7 +158,7 @@
 
                             <strong> OR </strong><br><br>
 
-                            <strong> Already Register <a href="login.jsp" style="font-size: 15px; text-decoration: none;"> Login Now</a> </strong>
+                            <strong> Already have an account? <a href="login.jsp" style="font-size: 15px; text-decoration: none;">Login</a> </strong>
                         </form>
                     </div>
                     <div class="col-md-2">

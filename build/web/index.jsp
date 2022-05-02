@@ -73,21 +73,11 @@
                 </div>
                 <!-- Search Job division Ends -->
 
-                <div class="row">
+                <div class="row" style="background-color: #fff3ff;">
                     <div class="col-md-3" id="mynavbar">
-                        <ul>
-                            <li> <a href=""> <img alt="TCS" src="images/tcs.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Wipro" src="images/wipro.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="DXC" src="images/dxc.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Infosys" src="images/infosys.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Apple" src="images/apple.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Disney" src="images/disney.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="MasterCard" src="images/mastercard.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Nike" src="images/nike.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Puma" src="images/puma.jpg" height="100px" width="100px"> </a> </li> 
-                        </ul>
+                        
                     </div>
-                    <div class="col-md-6" style="background-color: #e6ffff;">
+                    <div class="col-md-6">
                         <div class="row">
                         <jsp:scriptlet>
                         
@@ -116,14 +106,14 @@
                                     
                         </jsp:scriptlet>
                             <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;" >
-                                <b style="font-size: 20px; color: blue;"> <jsp:expression>job_profile</jsp:expression> </b> <span style="color: #6cd1fb; float: right;"> (<jsp:expression>date1</jsp:expression> &&nbsp;<jsp:expression>time1</jsp:expression>) </span>  <br>
-                                <span> <i class='fas fa-building'></i> <jsp:expression>company</jsp:expression> </span> <br>
-                                <span> <i class="glyphicon glyphicon-briefcase"></i> <jsp:expression>experience</jsp:expression> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <span> <i class="fa fa-inr"></i> <jsp:expression>salary</jsp:expression> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <span> <i class="glyphicon glyphicon-map-marker"></i> <jsp:expression>job_location</jsp:expression> </span><br>
-                                <span> <i class="glyphicon glyphicon-file"></i> <jsp:expression>description</jsp:expression> </span> <br>
-                                <span> <i class="glyphicon glyphicon-upload"></i> <jsp:expression>date1</jsp:expression> </span><br><br>
-                                <a href="job-description.jsp?id=<jsp:expression>id</jsp:expression>" class="another_hyperlink" > See Full Details </a>
+                                <b style="font-size: 25px; color: blue;"> <jsp:expression>job_profile</jsp:expression> </b> <span style="color: #6cd1fb; float: right; font-size: 18px;"> (<jsp:expression>date1</jsp:expression> &&nbsp;<jsp:expression>time1</jsp:expression>) </span>  <br>
+                                <span style="font-size: 20px; color: black;"> <i class='fas fa-building'></i> <jsp:expression>company</jsp:expression> </span> <br>
+                                <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-briefcase"></i> <jsp:expression>experience</jsp:expression> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span style="font-size: 20px; color: black;"> <i class="fa fa-inr"></i> <jsp:expression>salary</jsp:expression> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-map-marker"></i> <jsp:expression>job_location</jsp:expression> </span><br>
+                                <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-file"></i> <jsp:expression>description</jsp:expression> </span> <br>
+                                <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-upload"></i> <jsp:expression>date1</jsp:expression> </span><br><br>
+                                <a href="job-description.jsp?id=<jsp:expression>id</jsp:expression>" class="another_hyperlink" style="font-size: 20px;"> See Full Details </a>
                             </div>
                         <jsp:scriptlet>
                                 }
@@ -150,17 +140,7 @@
                         </div>
                     </div>
                     <div class="col-md-3" id="mynavbar">
-                        <ul>
-                            <li> <a href=""> <img alt="Google" src="images/google.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Microsoft" src="images/microsoft.jpg" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Cognizant" src="images/cognizant.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="Capgemini" src="images/capgemini.png" height="100px" width="100px"> </a> </li> 
-                            <li> <a href=""> <img alt="HP" src="images/hp.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href=""> <img alt="Nokia" src="images/nokia.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href=""> <img alt="IBM" src="images/ibm.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href=""> <img alt="BMW" src="images/bmw.jpg" height="100px" width="100px" > </a> </li>
-                            <li> <a href=""> <img alt="Mercedes" src="images/mercedes.jpg" height="100px" width="100px" > </a> </li>
-                        </ul> 
+                        
                     </div>
                 </div>
 

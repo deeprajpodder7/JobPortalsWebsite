@@ -131,14 +131,14 @@
                     <img alt="Contact Us" src="images/contact_us_img.png" height="500" />
                 </div>
                 
-                <div class="row">
+                <div class="row" style="background-color: #fff2fd;">
                     <div class="col-md-2" id="mynavbar">
                         
                     </div>
                     <div class="col-md-8">
                         <br>
                         <div class="row">
-                            <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px #33ccff; border-radius: 10px;">
+                            <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px #33ccff; border-radius: 10px; background-color: #fefef5;">
                                 <div class="row">
                                     <div class="col-md-4" style="margin-top: 100px;">
                                         <span style="color: black; font-size: 16px;"> <i class="glyphicon glyphicon-home"> </i> &nbsp;&nbsp; Newtown , Industrial Area </span> <br>
@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <form method="POST" action="ContactUs" name="contactusform" onsubmit="return validation()">
-                                            <strong style="font-size: 30px; margin-left: 70px;"> Contact Us </strong> <br><br>
+                                            <strong style="font-size: 30px; margin-left: 70px; color: #029fb4;"> Contact Us </strong> <br><br>
                                             
                                             <jsp:scriptlet>
                                                 if( ( name == null || name.equals("null") ) || ( email == null || email.equals("null")))
