@@ -31,7 +31,7 @@
                 <a href="index.jsp" title="Go To Home Page" class="logo_name_design">Job Portal</a>
             </div>
             <div class="col-md-6">
-                <strong style="font-size: 24px; color: #ffffff; font-weight: 800;"> Welcome : </strong> <strong style="font-size: 24px; color: #ffffff;"> <a title="Click Here Then Go To My Profile" class="user-name-after-login" href="profile.jsp" style="color: #ffffff; text-decoration: none;"> <img alt="" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="60" width="60" style="border: 0.5px solid #cccccc; border-radius: 50%; image-resolution: normal;" /> <jsp:expression>name</jsp:expression> </a> </strong>
+                <strong style="font-size: 24px; color: #ffffff; font-weight: 800;"> Welcome : </strong> <strong style="font-size: 24px; color: #ffffff;"> <a title="Click Here Then Go To My Profile" class="user-name-after-login" href="profile.jsp" style="color: #ffffff; text-decoration: none;"> <img alt="" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="60" width="60" style="border: 0px solid #cccccc; border-radius: 50%; image-resolution: normal;" /> <jsp:expression>name</jsp:expression> </a> </strong>
             </div>
             <div class="col-md-2">
                 

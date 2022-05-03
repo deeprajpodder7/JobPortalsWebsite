@@ -123,7 +123,7 @@
                     <div class="col-md-8">
                         <div class="row" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;">
                             <div class="col-md-3">
-                                <img alt="Image Not Found" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="200" style="border: 1px solid cyan; border-radius: 50%; color: red;" />
+                                <img alt="Image Not Found" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="200" style="border: 0px solid cyan; border-radius: 50%; color: red;" />
                             </div>
                             <div class="col-md-9">
                                 <table>

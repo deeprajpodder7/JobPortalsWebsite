@@ -28,14 +28,14 @@
     </head>
     <body>
         <div class="row header_bg">
-            <div class="col-md-9">
+            <div class="col-md-6 col-sm-6">
                 <a href="index.jsp" title="Go To Home Page"> <img alt="Job Portal Logo" src="images/job_portal_logo.jpg" width="65" height="65" class="logo_img_design" /> </a>
                 <a href="index.jsp" title="Go To Home Page" class="logo_name_design">Job Portal</a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-sm-6">
                 
-                <a href="register.jsp" class="menubar_design"> <button class="menubar_design_button"> <span class="glyphicon glyphicon-user"></span> Sign Up </button> </a> 
-                <a href="login.jsp" class="menubar_design"> <button class="menubar_design_button"> <span class="glyphicon glyphicon-log-in"></span> Login </button> </a> 
+                <a href="register.jsp" class="menubar_design" style="float: right;"> <button class="menubar_design_button"> <span class="glyphicon glyphicon-user"></span> Sign Up </button> </a> 
+                <a href="login.jsp" class="menubar_design" style="float: right;"> <button class="menubar_design_button"> <span class="glyphicon glyphicon-log-in"></span> Login </button> </a> 
                 
             </div>		
         </div>

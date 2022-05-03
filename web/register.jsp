@@ -9,79 +9,79 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        
+
         <script>
             function val(v)
             {
-                document.getElementById(v).innerHTML="";
+                document.getElementById(v).innerHTML = "";
             }
             function validation()
             {
                 var flag = true;
-                
+
                 var name2 = document.regform.name1.value;
                 var email2 = document.regform.email1.value;
                 var pass2 = document.regform.pass1.value;
                 var gender2 = document.regform.gender1.value;
                 //var fields2 = document.regform.field1.value;
                 var city2 = document.regform.city1.value;
-                
+
                 /* 
                  * @type RegExp validation 
                  */
-                
-                var name_pattern=/^[a-zA-Z-0-9 ]{3,30}$/;
+
+                var name_pattern = /^[a-zA-Z-0-9 ]{3,30}$/;
                 var email_pattern = /^([a-zA-Z0-9])(([a-zA-Z0-9])*([\._\+-])*([a-zA-Z0-9]))*@(([a-zA-Z0-9\-])+(\.))+([a-zA-Z]{2,4})+$/;
                 var password_pattern = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
                 //var phone_pattern = /^[0-9]{10}$/;
-                
-                
-                 // ======================== VALIDATION FORM ======================== 
-                 
-                if(!name2.match(name_pattern))
+
+
+                // ======================== VALIDATION FORM ======================== 
+
+                if (!name2.match(name_pattern))
                 {
-                    document.getElementById('name_error').innerHTML="NAME IS NOT PROPERLY FORMATED";
-                    flag=false;
-                } 
-                if( name2 === "" )
-                {
-                    document.getElementById('name_error').innerHTML="NAME CANNOT BE EMPTY";
+                    document.getElementById('name_error').innerHTML = "NAME IS NOT PROPERLY FORMATED";
                     flag = false;
                 }
-                
-                if(!email2.match(email_pattern))
+                if (name2 === "")
                 {
-                    document.getElementById('email_error').innerHTML="EMAIL IS NOT PROPERLY FORMATED";
-                    flag=false;
-                }
-                if( email2 === "" )
-                {
-                    document.getElementById('email_error').innerHTML="EMAIL CANNOT BE EMPTY";
+                    document.getElementById('name_error').innerHTML = "NAME CANNOT BE EMPTY";
                     flag = false;
                 }
-                
-                if(!pass2.match(password_pattern))
+
+                if (!email2.match(email_pattern))
                 {
-                    document.getElementById('pass_error').innerHTML="PASSWORD IS NOT PROPERLY FORMATED (SHOULD CONTAIN 0-9 , SPECIAL CHARACTER & a TO z OR A TO Z)";
-                    flag=false;
-                }
-                if( pass2 === "" )
-                {
-                    document.getElementById('pass_error').innerHTML="PASSWORD CANNOT BE EMPTY";
+                    document.getElementById('email_error').innerHTML = "EMAIL IS NOT PROPERLY FORMATED";
                     flag = false;
                 }
-                
-                if( gender2 === "" )
+                if (email2 === "")
                 {
-                    document.getElementById('gender_error').innerHTML="PLEASE SELECT ANY GENDER";
+                    document.getElementById('email_error').innerHTML = "EMAIL CANNOT BE EMPTY";
+                    flag = false;
+                }
+
+                if (!pass2.match(password_pattern))
+                {
+                    document.getElementById('pass_error').innerHTML = "PASSWORD IS NOT PROPERLY FORMATED (SHOULD CONTAIN 0-9 , SPECIAL CHARACTER & a TO z OR A TO Z)";
+                    flag = false;
+                }
+                if (pass2 === "")
+                {
+                    document.getElementById('pass_error').innerHTML = "PASSWORD CANNOT BE EMPTY";
+                    flag = false;
+                }
+
+                if (gender2 === "")
+                {
+                    document.getElementById('gender_error').innerHTML = "PLEASE SELECT ANY GENDER";
                     flag = false;
                 }
                 else
                 {
-                    document.getElementById('gender_error').innerHTML="";
+                    document.getElementById('gender_error').innerHTML = "";
                     flag = true;
                 }
-                
+
 //                if( fields2 === "" )
 //                {
 //                    document.getElementById('field_error').innerHTML="PLEASE SELECT ATLEAST ONE FIELD";
@@ -92,23 +92,23 @@
 //                    document.getElementById('field_error').innerHTML="";
 //                    flag = true;
 //                }
-                
-                if( city2 === "Select City" )
+
+                if (city2 === "Select City")
                 {
-                    document.getElementById('city_error').innerHTML="PLEASE SELECT ANY CITY";
+                    document.getElementById('city_error').innerHTML = "PLEASE SELECT ANY CITY";
                     flag = false;
                 }
                 else
                 {
-                    document.getElementById('city_error').innerHTML="";
+                    document.getElementById('city_error').innerHTML = "";
                     flag = true;
                 }
-                
+
                 return flag;
-                
+
             }
         </script>
-        
+
     </head>
     <body>
         <div class="container-fluid">
@@ -124,7 +124,7 @@
 
                         <form method="POST" name="regform" onsubmit="return validation()" action="reg">
 
-                            <strong style="font-size: 35px; font-weight: 900; color: #009900;"> Register </strong> <br><br>
+                            <strong style="font-size: 35px; font-weight: 900; color: #009900;"> Sign Up </strong> <br><br>
 
                             <input type="text" placeholder="Enter Name" name="name1" class="reglog_tf_design" onkeyup="val('name_error')" /> <br> <span id="name_error" style="font-size: 15px; color: red;">  </span> <br> <br>
                             <input type="text" placeholder="Enter Email" name="email1" class="reglog_tf_design" onkeyup="val('email_error')" /> <br> <span id="email_error" style="font-size: 15px; color: red;">  </span> <br> <br>
@@ -140,21 +140,40 @@
 
                             <strong style="font-size: 20px;"> Select City : </strong> 					
                             <select name="city1" class="reglog_tf_design" style="width: 380px; height: 45px;">
-                                <option> Select City </option>
-                                <option value="Assam"> Assam </option>
-                                <option value="Bangalore"> Bangalore </option>
-                                <option value="Chandigarh"> Chandigarh </option>
-                                <option value="Chennai"> Chennai </option>
-                                <option value="Deradun"> Deradun </option>
-                                <option value="Hydrabad"> Hydrabad </option>
-                                <option value="Kolkata"> Kolkata </option>
-                                <option value="Kota"> Kota </option>
-                                <option value="Mumbai"> Mumbai </option>
-                                <option value="Noida"> Noida </option>
-                                <option value="Pune"> Pune </option>
+                                <option> Select State </option>
+                                <option> Andhra Pradesh </option>
+                                <option> Arunachal Pradesh </option>
+                                <option> Assam </option>
+                                <option> Bihar </option>
+                                <option> Chhattisgarh </option>
+                                <option> Goa </option>
+                                <option> Gujarat </option>
+                                <option> Haryana </option>
+                                <option> Himachal Pradesh </option>
+                                <option> Jharkhand </option>
+                                <option> Karnataka </option>
+                                <option> Kerala </option>
+                                <option> Madhya Pradesh </option>
+                                <option> Maharashtra </option>
+                                <option> Manipur </option>
+                                <option> Meghalaya </option>
+                                <option> Mizoram </option>
+                                <option> Nagaland </option>
+                                <option> Odisha </option>
+                                <option> Punjab </option>
+                                <option> Rajasthan </option>
+                                <option> Sikkim </option>
+                                <option> Tamil Nadu </option>
+                                <option> Telangana </option>
+                                <option> Tripura </option>
+                                <option> Uttar Pradesh </option>
+                                <option> Uttarakhand </option>
+                                <option> West Bengal </option>
                             </select> <br> <span id="city_error" style="font-size: 15px; color: red;">  </span>  <br><br>
 
-                            <input type="submit" value="Register" class="btn btn-primary search_btn" /> <br><br>				
+                            <input type="checkbox" value="agree" name="term_and_condition1" /> I agree the <a href="term_and_conditions.jsp">term and condition</a> <br><br> 
+
+                            <input type="submit" value="Sign Up" class="btn btn-primary search_btn" /> <br><br>				
 
                             <strong> OR </strong><br><br>
 
@@ -165,9 +184,9 @@
 
                     </div>
                 </div>
-                
-            <br><br><br>
-                
+
+                <br><br><br>
+
             <jsp:include page="footer.jsp"></jsp:include>
 
         </div>

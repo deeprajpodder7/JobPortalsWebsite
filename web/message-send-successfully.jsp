@@ -21,7 +21,7 @@
             String message = (String) request.getAttribute("success_message");
         </jsp:scriptlet>
         <div class="alert alert-success alert-dismissible show" style="text-align: center;" role="alert">
-            <strong> Success : </strong> <jsp:expression> message </jsp:expression>
+            <strong> SUCCESS : </strong> <jsp:expression> message </jsp:expression>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>

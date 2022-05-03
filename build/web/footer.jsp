@@ -56,11 +56,11 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div class="col-md-12">
                                     <b class="footer_mail"> juliasbiswas0001@gmail.com </b> <br><br>
-                                    <a href="" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
-                                    <a href="" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
-                                    <a href="" class="footer_icon_design"> <i class="fa fa-google-plus"></i> </a>
-                                    <a href="" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
-                                    <a href="" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
+                                    <a href="https://www.facebook.com/profile.php?id=100023241877569" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
+                                    <a href="https://twitter.com/JuliasBiswas3" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
+                                    <a href="?#" class="footer_icon_design"> <i class="fa fa-google-plus"></i> </a>
+                                    <a href="https://www.instagram.com/julias.biswas/" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
+                                    <a href="https://www.linkedin.com/in/julias-biswas-604953203/" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
                                 </div>
                             </div>
                         </div>
