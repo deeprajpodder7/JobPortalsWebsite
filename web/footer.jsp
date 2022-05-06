@@ -38,14 +38,14 @@
                                 <center> <li> <a href="about-us.jsp"> About Us </a> </li> </center>
                                 <center> <li> <a href="contact-us.jsp"> Contact Us </a> </li> </center>
                                 <center> <li> <a href="term_and_conditions.jsp"> Terms & Conditions </a> </li> </center>
-                                <center> <li> <a href="?#"> Our Blog </a> </li> </center>
+                                <center> <li> <a href="our_blog.jsp"> Our Blog </a> </li> </center>
                             </ul>
                         </div>
                         <div class="col-md-4" id="footernavbar">
                             <ul>
                                 <center> <li> <a href="our_teams.jsp"> Our Team </a> </li> </center>
-                                <center> <li> <a href="?#"> Private Policy </a> </li> </center>
-                                <center> <li> <a href="?#"> Projects </a> </li> </center>
+                                <center> <li> <a href="private_policy.jsp"> Private Policy </a> </li> </center>
+                                <center> <li> <a href="https://github.com/Julias-Biswas"> Projects </a> </li> </center>
                                 <center> <li> <a href="contact-us.jsp"> FAQ </a> </li> </center>
                             </ul>
                         </div>
@@ -56,11 +56,11 @@
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div class="col-md-12">
                                     <b class="footer_mail"> juliasbiswas0001@gmail.com </b> <br><br>
-                                    <a href="https://www.facebook.com/profile.php?id=100023241877569" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
-                                    <a href="https://twitter.com/JuliasBiswas3" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
-                                    <a href="?#" class="footer_icon_design"> <i class="fa fa-google-plus"></i> </a>
-                                    <a href="https://www.instagram.com/julias.biswas/" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
-                                    <a href="https://www.linkedin.com/in/julias-biswas-604953203/" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
+                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/profile.php?id=100023241877569" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
+                                    <a target="_blank" title="Twitter" href="https://twitter.com/JuliasBiswas3" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
+                                    <a target="_blank" title="GitHub" href="https://github.com/Julias-Biswas" class="footer_icon_design"> <i class="fa fa-github"></i> </a>
+                                    <a target="_blank" title="Instagram" href="https://www.instagram.com/julias.biswas/" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
+                                    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/julias-biswas-604953203/" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
 
                         </div>
                         <div class="col-md-4">
-                            <center> <span> Copyright © 2022 <a href="index.jsp" class="copyright_hyper_link_design">www.JobPortal.com</a> . All Rights Reserved. </span> </center>
+                            <center> <span> Copyright © 2022 <a href="index.jsp" title="Index/Home Page" class="copyright_hyper_link_design">www.JobPortal.com</a> . All Rights Reserved. </span> </center>
                         </div>
                         <div class="col-md-4">
 
