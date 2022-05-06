@@ -274,6 +274,7 @@
                                             <td>
                                                 <select name="endmonth1" class="reglog_tf_design" style="width: 245px; height: 45px;">
                                                     <option> <jsp:expression>end_month</jsp:expression> </option>
+                                                    <option value="Still Working"> Still Working </option>
                                                     <option value="January"> January </option>
                                                     <option value="February"> February </option>
                                                     <option value="March"> March </option>
@@ -290,6 +291,7 @@
 
                                                 <select name="endyear1" class="reglog_tf_design" style="width: 245px; height: 45px;">
                                                     <option> <jsp:expression>end_year</jsp:expression> </option>
+                                                    <option value="Still Working"> Still Working </option>
                                                     <option value="2030"> 2030 </option>
                                                     <option value="2029"> 2029 </option>
                                                     <option value="2028"> 2028 </option>
