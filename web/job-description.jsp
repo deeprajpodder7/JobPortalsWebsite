@@ -156,7 +156,7 @@
                                                     
                                                     <form action="ApplyForJob" method="POST">
                                                         <input type="hidden" value="<jsp:expression>jobid</jsp:expression>" name="jid" />
-                                                        <input type="submit" value="Apply" class="btn btn-primary" style="float: right; font-size: 22px;" />
+                                                        <input type="submit" value="Apply This Job" class="btn btn-primary" style="float: right; font-size: 22px;" />
                                                     </form>
                                                     
                                                 <jsp:scriptlet>

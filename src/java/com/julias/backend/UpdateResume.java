@@ -58,103 +58,122 @@ public class UpdateResume extends HttpServlet
         }
         catch(Exception e)
         {
-            out.print(e);
+            //out.print(e);
         }
         
         Connection con = null;
         
-        try
+        
+        if( file_name == null || file_name.equals("") )
         {
-            con = DBConnection.getConnect();
-            
-            con.setAutoCommit(false);
-            
-            PreparedStatement ps1 = con.prepareStatement("SELECT * FROM resume WHERE email=?");
-            
-            ps1.setString(1, email);
-            
-            ResultSet rs = ps1.executeQuery();
-            
-            if( rs.next() )
-            {
-                // If the value is present in our database , then we write Update Query
-                
-                PreparedStatement ps2 = con.prepareStatement("UPDATE resume SET path=? WHERE email=?");
-                
-                ps2.setString(1, file_name);
-                ps2.setString(2, email);
-                
-                int i = ps2.executeUpdate();
-                
-                if( i > 0 )
-                {
-                    con.commit();
-                    resp.sendRedirect("profile.jsp");
-                }
-                else
-                {
-                    con.rollback();
-                
-                    RequestDispatcher rd1 = req.getRequestDispatcher("error.jsp");
-                    rd1.include(req, resp);
+            req.setAttribute("failed_message", "Resume can't be Selected, Please Select Any Resume...!!!");
 
-                    RequestDispatcher rd2 = req.getRequestDispatcher("upload-resume.jsp");
-                    rd2.include(req, resp);
-                }
-                
-            }
-            else
-            {
-                // If the value is not present in our database , then we write Insert Query
-                
-                PreparedStatement ps3 = con.prepareStatement("INSERT INTO resume(email , path) VALUES(?,?)");
-                
-                ps3.setString(1, email);
-                ps3.setString(2, file_name);
-                
-                int i = ps3.executeUpdate();
-                
-                if( i > 0 )
-                {
-                    con.commit();
-                    resp.sendRedirect("profile.jsp");
-                }
-                else
-                {
-                    con.rollback();
-                
-                    RequestDispatcher rd1 = req.getRequestDispatcher("error.jsp");
-                    rd1.include(req, resp);
+            RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+            rd1.include(req, resp);
 
-                    RequestDispatcher rd2 = req.getRequestDispatcher("upload-resume.jsp");
-                    rd2.include(req, resp);
-                }
-                
-            }
-            
+            RequestDispatcher rd2 = req.getRequestDispatcher("upload-resume.jsp");
+            rd2.include(req, resp);
         }
-        catch(SQLException | IOException | ServletException e)
+        else
         {
             try
             {
-                con.rollback();
+                con = DBConnection.getConnect();
+
+                con.setAutoCommit(false);
+
+                PreparedStatement ps1 = con.prepareStatement("SELECT * FROM resume WHERE email=?");
+
+                ps1.setString(1, email);
+
+                ResultSet rs = ps1.executeQuery();
+
+                if( rs.next() )
+                {
+                    // If the value is present in our database , then we write Update Query
+
+                    PreparedStatement ps2 = con.prepareStatement("UPDATE resume SET path=? WHERE email=?");
+
+                    ps2.setString(1, file_name);
+                    ps2.setString(2, email);
+
+                    int i = ps2.executeUpdate();
+
+                    if( i > 0 )
+                    {
+                        con.commit();
+                        resp.sendRedirect("profile.jsp");
+                    }
+                    else
+                    {
+                        con.rollback();
+
+                        req.setAttribute("failed_message", "Resume can't be Selected, Please Select Any Resume...!!!");
+
+                        RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                        rd1.include(req, resp);
+
+                        RequestDispatcher rd2 = req.getRequestDispatcher("upload-resume.jsp");
+                        rd2.include(req, resp);
+                    }
+
+                }
+                else
+                {
+                    // If the value is not present in our database , then we write Insert Query
+
+                    PreparedStatement ps3 = con.prepareStatement("INSERT INTO resume(email , path) VALUES(?,?)");
+
+                    ps3.setString(1, email);
+                    ps3.setString(2, file_name);
+
+                    int i = ps3.executeUpdate();
+
+                    if( i > 0 )
+                    {
+                        con.commit();
+                        resp.sendRedirect("profile.jsp");
+                    }
+                    else
+                    {
+                        con.rollback();
+
+                        req.setAttribute("failed_message", "Resume can't be Selected, Please Select Any Resume...!!!");
+
+                        RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                        rd1.include(req, resp);
+
+                        RequestDispatcher rd2 = req.getRequestDispatcher("upload-resume.jsp");
+                        rd2.include(req, resp);
+                    }
+
+                }
+
             }
-            catch(Exception ee)
+            catch(SQLException | IOException | ServletException e)
             {
-                out.print(ee);
+                try
+                {
+                    con.rollback();
+                }
+                catch(Exception ee)
+                {
+                    out.print(ee);
+                }
+            }
+            finally
+            {
+                try
+                {
+                    con.close();
+                }
+                catch(Exception eee)
+                {
+                    out.print(eee);
+                }
             }
         }
-        finally
-        {
-            try
-            {
-                con.close();
-            }
-            catch(Exception eee)
-            {
-                out.print(eee);
-            }
-        }
+        
     }
     
 }

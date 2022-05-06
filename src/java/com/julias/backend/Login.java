@@ -97,20 +97,29 @@ public class Login extends HttpServlet
             {
                 
                 //resp.sendRedirect("loginerror.jsp");
-                RequestDispatcher rd1 = req.getRequestDispatcher("header.jsp");
-                rd1.include(req, resp);
+//                RequestDispatcher rd1 = req.getRequestDispatcher("header.jsp");
+//                rd1.include(req, resp);
+//                
+//                RequestDispatcher rd2 = req.getRequestDispatcher("menubar.jsp");
+//                rd2.include(req, resp);
+//                
+//                RequestDispatcher rd3 = req.getRequestDispatcher("loginerror.jsp");
+//                rd3.include(req, resp);
+//                
+//                RequestDispatcher rd4 = req.getRequestDispatcher("logindiv.jsp");
+//                rd4.include(req, resp);
+//                
+//                RequestDispatcher rd5= req.getRequestDispatcher("footer.jsp");
+//                rd5.include(req, resp);
                 
-                RequestDispatcher rd2 = req.getRequestDispatcher("menubar.jsp");
+                req.setAttribute("failed_message", "Email & Password : Email & Password are Invalid...!!!");
+            
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                rd1.include(req, resp);
+
+                RequestDispatcher rd2 = req.getRequestDispatcher("login.jsp");
                 rd2.include(req, resp);
                 
-                RequestDispatcher rd3 = req.getRequestDispatcher("loginerror.jsp");
-                rd3.include(req, resp);
-                
-                RequestDispatcher rd4 = req.getRequestDispatcher("logindiv.jsp");
-                rd4.include(req, resp);
-                
-                RequestDispatcher rd5= req.getRequestDispatcher("footer.jsp");
-                rd5.include(req, resp);
             }
         }
         catch(Exception e)

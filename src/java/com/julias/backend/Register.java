@@ -107,24 +107,42 @@ public class Register extends HttpServlet {
 
                 session.setAttribute("session_profilepic", "default_image.png");
 
-                RequestDispatcher rd1 = req.getRequestDispatcher("header.jsp");
+//                RequestDispatcher rd1 = req.getRequestDispatcher("header.jsp");
+//                rd1.include(req, resp);
+//
+//                RequestDispatcher rd2 = req.getRequestDispatcher("menubar.jsp");
+//                rd2.include(req, resp);
+//
+//                RequestDispatcher rd3 = req.getRequestDispatcher("registersuccess.jsp");
+//                rd3.include(req, resp);
+//
+//                RequestDispatcher rd4 = req.getRequestDispatcher("logindiv.jsp");
+//                rd4.include(req, resp);
+//
+//                RequestDispatcher rd5 = req.getRequestDispatcher("footer.jsp");
+//                rd5.include(req, resp);
+                
+                req.setAttribute("success_message", " Account Created Successfully, Please Login...!!!");
+            
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-successfully.jsp");
                 rd1.include(req, resp);
 
-                RequestDispatcher rd2 = req.getRequestDispatcher("menubar.jsp");
+                RequestDispatcher rd2 = req.getRequestDispatcher("login.jsp");
                 rd2.include(req, resp);
-
-                RequestDispatcher rd3 = req.getRequestDispatcher("registersuccess.jsp");
-                rd3.include(req, resp);
-
-                RequestDispatcher rd4 = req.getRequestDispatcher("logindiv.jsp");
-                rd4.include(req, resp);
-
-                RequestDispatcher rd5 = req.getRequestDispatcher("footer.jsp");
-                rd5.include(req, resp);
+                
             } else {
                 con.rollback();
 
                 out.print("User Register Failed");
+                
+                req.setAttribute("failed_message", "Account Creation Failed...!!!");
+            
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                rd1.include(req, resp);
+
+                RequestDispatcher rd2 = req.getRequestDispatcher("register.jsp");
+                rd2.include(req, resp);
+                
             }
         } catch (SQLException | ServletException | IOException e) {
             try {

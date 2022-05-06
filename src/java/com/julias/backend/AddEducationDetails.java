@@ -73,12 +73,22 @@ public class AddEducationDetails extends HttpServlet
             {
                 con.commit();
                 resp.sendRedirect("profile.jsp");
+                
+//                req.setAttribute("success_message", "Education Added Failed, Please Fill All Fields...!!!");
+//                
+//                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-successfully.jsp");
+//                rd1.include(req, resp);
+//                
+//                RequestDispatcher rd2 = req.getRequestDispatcher("add-profile-education.jsp");
+//                rd2.include(req, resp);
             }
             else
             {
                 con.rollback();
                 
-                RequestDispatcher rd1 = req.getRequestDispatcher("error.jsp");
+                req.setAttribute("failed_message", "Education Added Failed, Please Fill All Fields...!!!");
+                
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
                 rd1.include(req, resp);
                 
                 RequestDispatcher rd2 = req.getRequestDispatcher("add-profile-education.jsp");
@@ -90,8 +100,16 @@ public class AddEducationDetails extends HttpServlet
             try
             {
                 con.rollback();
+                
+                req.setAttribute("failed_message", "Education Added Failed, Please Fill All Fields...!!!");
+                
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                rd1.include(req, resp);
+                
+                RequestDispatcher rd2 = req.getRequestDispatcher("add-profile-education.jsp");
+                rd2.include(req, resp);
             }
-            catch(Exception ee)
+            catch(SQLException | ServletException | IOException ee)
             {
                 out.print(ee);
             }

@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -58,62 +59,86 @@ public class UpdateProfilePic extends HttpServlet
         }
         catch(Exception e)
         {
-            out.print(e);
+            //out.print("Exception : "+e);
         }
         
-        try
+        if( file_name == null || file_name.equals("") )
         {
-            con = DBConnection.getConnect();
-            
-            con.setAutoCommit(false);
-            
-            PreparedStatement ps = con.prepareStatement("UPDATE profile_pic SET path=? WHERE email=?");
-            
-            ps.setString(1, file_name);
-            ps.setString(2, email);
-            
-            int i = ps.executeUpdate();
-            
-            if( i > 0 )
-            {
-                session.setAttribute("session_profilepic", file_name);
-                
-                con.commit();
-                
-                resp.sendRedirect("profile.jsp");
-            }
-            else
-            {
-                con.rollback();
-                
-                RequestDispatcher rd1 = req.getRequestDispatcher("error.jsp");
-                rd1.include(req, resp);
-                
-                RequestDispatcher rd2 = req.getRequestDispatcher("edit-profile-pic.jsp");
-                rd2.include(req, resp);
-            }
-            
+            req.setAttribute("failed_message", "Profile Image can't be Selected, Please Select Any Image...!!!");
+
+            RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+            rd1.include(req, resp);
+
+            RequestDispatcher rd2 = req.getRequestDispatcher("edit-profile-pic.jsp");
+            rd2.include(req, resp);
         }
-        catch(Exception e)
+        else
         {
             try
             {
-                con.rollback();
+                con = DBConnection.getConnect();
+
+                con.setAutoCommit(false);
+
+                PreparedStatement ps = con.prepareStatement("UPDATE profile_pic SET path=? WHERE email=?");
+
+                ps.setString(1, file_name);
+                ps.setString(2, email);
+
+                int i = ps.executeUpdate();
+
+                if( i > 0 )
+                {
+                    session.setAttribute("session_profilepic", file_name);
+
+                    con.commit();
+
+                    resp.sendRedirect("profile.jsp");
+                }
+                else
+                {
+                    con.rollback();
+
+                    req.setAttribute("failed_message", "Profile Image can't be Uploaded...!!!");
+
+                    RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                    rd1.include(req, resp);
+
+                    RequestDispatcher rd2 = req.getRequestDispatcher("edit-profile-pic.jsp");
+                    rd2.include(req, resp);
+                }
+
             }
-            catch(Exception ee)
+            catch(SQLException | IOException | ServletException e)
             {
-                out.print(ee);
+                try
+                {
+                    con.rollback();
+
+                    req.setAttribute("failed_message", "Profile Image can't be Uploaded...!!!");
+
+                    RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                    rd1.include(req, resp);
+
+                    RequestDispatcher rd2 = req.getRequestDispatcher("edit-profile-pic.jsp");
+                    rd2.include(req, resp);
+
+                }
+                catch(SQLException | ServletException | IOException ee)
+                {
+                    out.print("SQLException | ServletException | IOException : "+ee);
+                }
             }
-        }
-        finally
-        {
-            try
+            finally
             {
-                con.close();
-            }
-            catch(Exception eee)
-            {
-                out.print(eee);
+                try
+                {
+                    con.close();
+                }
+                catch(Exception eee)
+                {
+                    out.print(eee);
+                }
             }
         }
         

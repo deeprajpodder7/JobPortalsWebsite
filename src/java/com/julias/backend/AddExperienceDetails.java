@@ -76,7 +76,9 @@ public class AddExperienceDetails extends HttpServlet
             {
                 con.rollback();
                 
-                RequestDispatcher rd1 = req.getRequestDispatcher("error.jsp");
+                req.setAttribute("failed_message", "Experience Added Failed, Please Fill All Fields...!!!");
+                
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
                 rd1.include(req, resp);
                 
                 RequestDispatcher rd2 = req.getRequestDispatcher("add-experience-details.jsp");
@@ -88,8 +90,16 @@ public class AddExperienceDetails extends HttpServlet
             try
             {
                 con.rollback();
+                
+                req.setAttribute("failed_message", "Experience Added Failed, Please Fill All Fields...!!!");
+                
+                RequestDispatcher rd1 = req.getRequestDispatcher("message-send-failed.jsp");
+                rd1.include(req, resp);
+                
+                RequestDispatcher rd2 = req.getRequestDispatcher("add-experience-details.jsp");
+                rd2.include(req, resp);
             }
-            catch(Exception ee)
+            catch(SQLException | ServletException | IOException ee)
             {
                 out.print(ee);
             }

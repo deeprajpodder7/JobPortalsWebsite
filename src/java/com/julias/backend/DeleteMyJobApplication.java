@@ -55,7 +55,8 @@ public class DeleteMyJobApplication extends HttpServlet
             {
                 con.commit();
                 
-                resp.sendRedirect("my-applied-jobs.jsp");
+                resp.sendRedirect("my-applied-jobs.jsp");                
+                
             }
             else
             {

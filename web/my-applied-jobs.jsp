@@ -116,7 +116,7 @@
                                 <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-map-marker"></i> <jsp:expression>job_location</jsp:expression> </span><br>
                                 <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-file"></i> <jsp:expression>description</jsp:expression> </span> <br>
                                 <span style="font-size: 20px; color: black;"> <i class="glyphicon glyphicon-upload"></i> <jsp:expression>date1</jsp:expression> </span><br><br>
-                                <a href="job-description.jsp?id=<jsp:expression>jobid</jsp:expression>" class="another_hyperlink" > See Full Details </a>
+                                <a href="job-description.jsp?id=<jsp:expression>jobid</jsp:expression>" class="another_hyperlink" style="font-size: 18px;" > See Full Details </a>
                             </div>
                         <jsp:scriptlet>
                                     }

@@ -85,7 +85,7 @@
                             <div class="col-md-12 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;" >
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <img src="company-logo/<jsp:expression>c_logo</jsp:expression>" height="90" width="90" style="border-radius: 50%; border: 0px solid #ccffff; margin-top: 50%;" />
+                                        <img src="company-logo/<jsp:expression>c_logo</jsp:expression>" height="100" width="90" style="border: 0px solid #ccffff; margin-top: 50%; margin-bottom: 50%;" />
                                     </div>
                                     <div class="col-md-10">
                                         <b style="font-size: 25px; color: blue;"> <jsp:expression>c_name</jsp:expression> </b> <span style="color: #6cd1fb; float: right; font-size: 18px;"> (<jsp:expression>date1</jsp:expression> &&nbsp;<jsp:expression>time1</jsp:expression>) </span> <br> 
