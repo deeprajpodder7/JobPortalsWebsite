@@ -45,7 +45,7 @@
                             <ul>
                                 <center> <li> <a href="our_teams.jsp"> Our Team </a> </li> </center>
                                 <center> <li> <a href="private_policy.jsp"> Private Policy </a> </li> </center>
-                                <center> <li> <a href="https://github.com/Julias-Biswas"> Projects </a> </li> </center>
+                                <center> <li> <a target="_blank" href="https://github.com/Julias-Biswas"> Projects </a> </li> </center>
                                 <center> <li> <a href="contact-us.jsp"> FAQ </a> </li> </center>
                             </ul>
                         </div>
