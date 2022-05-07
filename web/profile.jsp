@@ -255,7 +255,7 @@
                         </div>
                         <div class="col-md-10">
                             <h3> Resume Details </h3>
-                            <div class="row" style="background-color: #ccffff;">
+                            <div class="row" style="background-color: #ccffff; border-radius: 10px;">
                                 <div class="col-md-11">
                                     <a href="upload-resume.jsp" > <span style="font-size: 15px;  color: blue;" class="glyphicon glyphicon-plus"> </span> Upload Resume </a>
                                     
@@ -296,7 +296,7 @@
                                 </div>
                             </div>
                             <br><br>
-                            <div class="row" style="background-color: #ccffff;">
+                            <div class="row" style="background-color: #ccffff; border-radius: 10px;">
                                 <div class="col-md-11">
                                     <a href="resume-builder.jsp" > <span style="font-size: 15px;  color: blue;" class="glyphicon glyphicon-pencil"> </span> Resume Builder </a>
                                 <jsp:scriptlet>
