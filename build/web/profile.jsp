@@ -74,7 +74,7 @@
                                 <img alt="Image Not Found" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="200" style="border: 0px solid cyan; border-radius: 50%; color: red;" />
                             </div>
                             <div class="col-md-8">
-                                <h3 style="color: blue;"> <jsp:expression> name.toUpperCase()</jsp:expression> </h3>
+                                <h3 style="color: blue; font-size: 35px; font-weight: 800;"> <jsp:expression> name.toUpperCase()</jsp:expression> </h3>
 
                                 <b style="color: #cc0066"> <jsp:expression> title</jsp:expression> </b> <br> <br>
                             <b style="color: #999999"> Skills : </b> <span style="color: #cc0066"> <jsp:expression> skills</jsp:expression> </span> <br> <br>
@@ -95,7 +95,7 @@
 
                             </div>
                             <div class="col-md-10">
-                                <h3> Education Details </h3>
+                                <h3 style="font-size: 28px; color: #000000; font-weight: 700;"> Education </h3>
                             <jsp:scriptlet>
 
                                 String school = "", degree = "", field_of_study = "", start_month = "", start_year = "", end_month = "", end_year = "", grade = "", description = "", id = "";
@@ -175,7 +175,7 @@
 
                         </div>
                         <div class="col-md-10">
-                            <h3> Experience Details </h3>
+                            <h3 style="font-size: 28px; color: #000000; font-weight: 700;"> Experience </h3>
                             <jsp:scriptlet>
 
                                 String company1 = "", location1 = "" , start_month1 = "", start_year1 = "", end_month1 = "", end_year1 = "", employement_type1 = "", description1 = "", id1 = "";
