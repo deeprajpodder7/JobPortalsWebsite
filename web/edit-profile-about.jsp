@@ -212,17 +212,34 @@
                                         <td>
                                             <select name="city1" class="reglog_tf_design" style="width: 300px; height: 40px;">
                                                 <option> <jsp:expression> city </jsp:expression> </option>
-                                                <option value="Assam"> Assam </option>
-                                                <option value="Bangalore"> Bangalore </option>
-                                                <option value="Chandigarh"> Chandigarh </option>
-                                                <option value="Chennai"> Chennai </option>
-                                                <option value="Deradun"> Deradun </option>
-                                                <option value="Hydrabad"> Hydrabad </option>
-                                                <option value="Kolkata"> Kolkata </option>
-                                                <option value="Kota"> Kota </option>
-                                                <option value="Mumbai"> Mumbai </option>
-                                                <option value="Noida"> Noida </option>
-                                                <option value="Pune"> Pune </option>
+                                                <option> Andhra Pradesh </option>
+                                                <option> Arunachal Pradesh </option>
+                                                <option> Assam </option>
+                                                <option> Bihar </option>
+                                                <option> Chhattisgarh </option>
+                                                <option> Goa </option>
+                                                <option> Gujarat </option>
+                                                <option> Haryana </option>
+                                                <option> Himachal Pradesh </option>
+                                                <option> Jharkhand </option>
+                                                <option> Karnataka </option>
+                                                <option> Kerala </option>
+                                                <option> Madhya Pradesh </option>
+                                                <option> Maharashtra </option>
+                                                <option> Manipur </option>
+                                                <option> Meghalaya </option>
+                                                <option> Mizoram </option>
+                                                <option> Nagaland </option>
+                                                <option> Odisha </option>
+                                                <option> Punjab </option>
+                                                <option> Rajasthan </option>
+                                                <option> Sikkim </option>
+                                                <option> Tamil Nadu </option>
+                                                <option> Telangana </option>
+                                                <option> Tripura </option>
+                                                <option> Uttar Pradesh </option>
+                                                <option> Uttarakhand </option>
+                                                <option> West Bengal </option>
                                             </select> <br> <span id="city_error" style="font-size: 15px; color: red;">  </span> <br><br>
                                         </td>
                                     </tr>
