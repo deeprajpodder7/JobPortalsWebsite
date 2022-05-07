@@ -84,10 +84,10 @@
                                 </p>
                                 <span> <b> <i class="glyphicon glyphicon-envelope"> </i> &nbsp;&nbsp; juliasbiswas0001@gmail.com </b> </span> <br>
                                 <span> <b> <i class="glyphicon glyphicon-earphone"> </i> &nbsp;&nbsp; 6294160823 </b> </span> <br>
-                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="https://www.linkedin.com/in/julias-biswas-604953203/">LinkedIn Profile </a> </b> </span> <br>
-                                <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a href="https://www.hackerrank.com/juliasbiswas0001">HackerRank Profile</a> </b> </span> <br>
-                                <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a href="https://www.instagram.com/julias.biswas/">Instagram Profile</a> </b> </span> <br>
-                                <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a href="https://github.com/Julias-Biswas">GitHub Profile</a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/julias-biswas-604953203/">LinkedIn Profile </a> </b> </span> <br>
+                                <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a target="_blank" href="https://www.hackerrank.com/juliasbiswas0001">HackerRank Profile</a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/julias.biswas/">Instagram Profile</a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a target="_blank" href="https://github.com/Julias-Biswas">GitHub Profile</a> </b> </span> <br>
                             </div>
                             <hr>
                             <div class="col-md-3">
@@ -100,10 +100,10 @@
                                 </p>
                                 <span> <b> <i class="glyphicon glyphicon-envelope"> </i> &nbsp;&nbsp; nayanbhowmick49@gmail.com </b> </span> <br>
                                 <span> <b> <i class="glyphicon glyphicon-earphone"> </i> &nbsp;&nbsp; 6291895984 </b> </span> <br>
-                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="https://www.linkedin.com/in/nayan-bhowmick-31ba551a4/">LinkedIn Profile </a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/nayan-bhowmick-31ba551a4/">LinkedIn Profile </a> </b> </span> <br>
                                 <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a href="?#">HackerRank Profile</a> </b> </span> <br>
                                 <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a href="?#">Instagram Profile</a> </b> </span> <br>
-                                <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a href="https://github.com/Nayan-8">GitHub Profile</a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a target="_blank" href="https://github.com/Nayan-8">GitHub Profile</a> </b> </span> <br>
                             </div>
                             <hr>
                             <div class="col-md-3">
@@ -132,7 +132,7 @@
                                 </p>
                                 <span> <b> <i class="glyphicon glyphicon-envelope"> </i> &nbsp;&nbsp; deeprajpodder7@gmail.com </b> </span> <br>
                                 <span> <b> <i class="glyphicon glyphicon-earphone"> </i> &nbsp;&nbsp; 91237 21390 </b> </span> <br>
-                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="https://www.linkedin.com/in/nayan-bhowmick-31ba551a4/">LinkedIn Profile </a> </b> </span> <br>
+                                <span> <b> <i class="fa fa-linkedin-square"> </i> &nbsp;&nbsp;<a href="?#">LinkedIn Profile </a> </b> </span> <br>
                                 <span> <b> <i class="glyphicon glyphicon-user"> </i> &nbsp;&nbsp;<a href="?#">HackerRank Profile</a> </b> </span> <br>
                                 <span> <b> <i class="fa fa-instagram"> </i> &nbsp;&nbsp;<a href="?#">Instagram Profile</a> </b> </span> <br>
                                 <span> <b> <i class="fa fa-github"> </i> &nbsp;&nbsp;<a href="?#">GitHub Profile</a> </b> </span> <br>

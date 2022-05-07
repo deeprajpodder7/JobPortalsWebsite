@@ -70,7 +70,7 @@
                     <div class="col-md-8">
                         <div class="row" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;">
                             <div class="col-md-3">
-                                <a href="edit-profile-pic.jsp"> <span style="font-size: 15px;  color: blue; float: right;" class="glyphicon glyphicon-pencil"> </span> </a>
+                                <a href="edit-profile-pic.jsp"> <span style="font-size: 15px;  color: blue; float: right;" class="glyphicon glyphicon-pencil" title="Add/Edit Profile Picture"> </span> </a>
                                 <img alt="Image Not Found" src="profilepics/<jsp:expression>profile_pic</jsp:expression>" height="200" style="border: 0px solid cyan; border-radius: 50%; color: red;" />
                             </div>
                             <div class="col-md-8">
@@ -85,7 +85,7 @@
                             <b style="color: #999999"> City : </b> <jsp:expression> city</jsp:expression> <br> 
                             </div>
                             <div class="col-md-1">
-                                <br> <a href="edit-profile-about.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil"> </span> </a>
+                                <br> <a href="edit-profile-about.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil" title="Add/Edit About"> </span> </a>
                             </div>
                         </div>
                         <br><br>
@@ -122,9 +122,9 @@
                                         description = rs.getString("description");
                             </jsp:scriptlet>
 
-                            <div class="row" style="background-color: #ccffff">
+                            <div class="row" style="background-color: #ccffff; border-radius: 10px;">
                                 <div class="col-md-3">
-                                    <img alt="Education" src="images/education_icon.jpg" height="100" style="border-radius: 50%; margin-top: 50%; border: 1px solid #ffffcc;" />
+                                    <img alt="Education" src="images/education_icon.png" height="100" style="border-radius: 0%; margin-top: 50%; border: 0px solid #ffffcc;" />
                                 </div>
                                 <div class="col-md-8">
                                     <b style="color: #000099"> School/College : </b> &nbsp;&nbsp; <jsp:expression> school</jsp:expression> <br><br>
@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="col-md-1">
                                         <!--  "edit-experience-details.jsp?id=id"  -->
-                                        <a href="edit-profile-education.jsp?id=<jsp:expression>id</jsp:expression>"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil"> </span> </a>
+                                        <a href="edit-profile-education.jsp?id=<jsp:expression>id</jsp:expression>"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil" title="Edit/Remove Education"> </span> </a>
                                     </div>
                                 </div>
                                 <br><br>
@@ -165,7 +165,7 @@
                             </jsp:scriptlet>
                         </div>
                         <div class="col-md-1">
-                            <a href="add-profile-education.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-plus"> </span> </a>
+                            <a href="add-profile-education.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-plus" title="Add Education"> </span> </a>
                         </div>
                     </div>
                     <br><br>
@@ -201,7 +201,7 @@
                                         description1 = rs.getString("description");
                             </jsp:scriptlet>
 
-                            <div class="row" style="background-color: #ccffff">
+                            <div class="row" style="background-color: #ccffff; border-radius: 10px;">
                                 <div class="col-md-3">
                                     <img alt="Experience" src="images/work_experience.png" height="100" style="border-radius: 50%; margin-top: 50%; border: 1px solid #ccffcc;" />
                                 </div>
@@ -217,7 +217,7 @@
                                     </div>
                                     <div class="col-md-1">
                                         <!--  "edit-experience-details.jsp?id1=id1"  -->
-                                        <a href="edit-experience-details.jsp?id1=<jsp:expression>id1</jsp:expression>"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil"> </span> </a>
+                                        <a href="edit-experience-details.jsp?id1=<jsp:expression>id1</jsp:expression>"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-pencil" title="Edit/Remove Experience"> </span> </a>
                                     </div>
                                 </div>
                                 <br><br>
@@ -243,7 +243,7 @@
                             </jsp:scriptlet>
                         </div>
                         <div class="col-md-1">
-                            <a href="add-experience-details.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-plus"> </span> </a>
+                            <a href="add-experience-details.jsp"> <span style="font-size: 20px;  color: blue;" class="glyphicon glyphicon-plus" title="Add Experience"> </span> </a>
                         </div>
                     </div>
                     <br><br>
