@@ -254,7 +254,7 @@
                             
                         </div>
                         <div class="col-md-10">
-                            <h3> Resume Details </h3>
+                            <h3 style="font-size: 28px; color: #000000; font-weight: 700;"> Resume </h3>
                             <div class="row" style="background-color: #ccffff; border-radius: 10px;">
                                 <div class="col-md-11">
                                     <a href="upload-resume.jsp" > <span style="font-size: 15px;  color: blue;" class="glyphicon glyphicon-plus"> </span> Upload Resume </a>
