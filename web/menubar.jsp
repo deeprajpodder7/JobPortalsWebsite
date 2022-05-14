@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="row menubardiv" >
-            <div class="col-md-6" id="mynavbar">
+            <div class="col-md-6 col-sm-6" id="mynavbar">
                 <ul>
                     <li> <a href="simple-job-search.jsp" class="menubar_div_design_hyperlink"> Search Job </a> </li>
                     <li> <a href="companies.jsp" class="menubar_div_design_hyperlink"> Companies </a> </li>
@@ -35,7 +35,7 @@
                     </jsp:scriptlet>
                 </ul>
             </div>
-            <div class="col-md-6" id="mynavbar" >
+            <div class="col-md-6 col-sm-6" id="mynavbar" >
                 <ul>
                     <li> <a href="index.jsp" class="menubar_div_design_hyperlink"> Home </a> </li>
                     <li> <a href="about-us.jsp" class="menubar_div_design_hyperlink"> About Us </a> </li>
