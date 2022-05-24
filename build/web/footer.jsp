@@ -31,7 +31,7 @@
                 <div class="col-md-12">
                     <div class="row footer">
                         <div class="col-md-4">
-                            <img alt="Footer Image" src="images/footer_img.jpg" width="200" height="200" />
+                            <center><img alt="Footer Image" src="images/footer_img.jpg" width="200" height="200"/></center>
                         </div>
                         <div class="col-md-4" id="footernavbar">
                             <ul>
@@ -44,7 +44,7 @@
                         <div class="col-md-4" id="footernavbar">
                             <ul>
                                 <center> <li> <a href="our_teams.jsp"> Our Team </a> </li> </center>
-                                <center> <li> <a href="private_policy.jsp"> Private Policy </a> </li> </center>
+                                <center> <li> <a href="private_policy.jsp"> Privacy Policy </a> </li> </center>
                                 <center> <li> <a target="_blank" href="https://github.com/Julias-Biswas"> Projects </a> </li> </center>
                                 <center> <li> <a href="contact-us.jsp"> FAQ </a> </li> </center>
                             </ul>
@@ -53,14 +53,25 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row">
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <div class="col-md-12">
-                                    <b class="footer_mail"> juliasbiswas0001@gmail.com </b> <br><br>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/profile.php?id=100023241877569" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
-                                    <a target="_blank" title="Twitter" href="https://twitter.com/JuliasBiswas3" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
-                                    <a target="_blank" title="GitHub" href="https://github.com/Julias-Biswas" class="footer_icon_design"> <i class="fa fa-github"></i> </a>
-                                    <a target="_blank" title="Instagram" href="https://www.instagram.com/julias.biswas/" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
-                                    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/julias-biswas-604953203/" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
+                                <div class="col-md-3">
+                                    <center><b class="footer_mail">juliasbiswas0001@gmail.com</b></center>
+                                </div>
+                                <div class="col-md-9">
+                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <center>
+                                        <a target="_blank" title="Facebook" href="https://www.facebook.com/profile.php?id=100023241877569" class="footer_icon_design"> <i class="fa fa-facebook"></i> </a>
+                                        <a target="_blank" title="Twitter" href="https://twitter.com/JuliasBiswas3" class="footer_icon_design"> <i class="fa fa-twitter"></i> </a>
+                                        <a target="_blank" title="GitHub" href="https://github.com/Julias-Biswas" class="footer_icon_design"> <i class="fa fa-github"></i> </a>
+                                        <a target="_blank" title="Instagram" href="https://www.instagram.com/julias.biswas/" class="footer_icon_design"> <i class="fa fa-instagram"></i> </a>
+                                        <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/julias-biswas-604953203/" class="footer_icon_design"> <i class="fa fa-linkedin"></i> </a>
+                                    </center>
+                                </div>
+                                <div class="col-md-9">
+                                    
                                 </div>
                             </div>
                         </div>

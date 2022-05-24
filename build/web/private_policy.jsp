@@ -14,7 +14,7 @@
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title> Job Portal - Private Policy </title>
+        <title> Job Portal - Privacy Policy </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
 
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-md-8 col-sm-8 display_job_div" style="border: 1px solid lightgray; box-shadow: 2px 2px 2px gray; border-radius: 10px;" >
                         
-                        <center> <b style="font-size: 38px; color: #339900; text-decoration: underline;"> Private Policy </b> </center>
+                        <center> <b style="font-size: 38px; color: #339900; text-decoration: underline;"> Privacy Policy </b> </center>
                         
                         <br><br>
                         

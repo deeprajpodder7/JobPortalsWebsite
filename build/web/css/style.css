@@ -180,9 +180,9 @@ html
 
 .footer_mail
 {
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
-    font-family: fantasy;
+    font-family: monospace;
 }
 
 .footer_icon_design
